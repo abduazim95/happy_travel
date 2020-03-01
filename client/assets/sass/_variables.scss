@@ -1,0 +1,18 @@
+$primary-color: #00843c;
+$secondary-color: #66970a;
+$accent-color: #f0d016;
+$hover-color: #d8e567;
+$error-color: #b71c1c;
+
+
+@mixin roundBlock($size) {
+  border-radius: #{$size}px;
+  height: #{$size}px;
+  width: #{$size}px;
+}
+
+@mixin centerBoth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

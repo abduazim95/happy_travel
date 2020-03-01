@@ -1,0 +1,14 @@
+@import 'variables';
+@import '~sweetalert2/src/sweetalert2';
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+@import 'classes';
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+
+
+html {
+  font-size: 14px;
+}
